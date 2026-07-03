@@ -1,0 +1,10 @@
+[
+  {
+    "key": "ctrl+alt+shift+t",
+    "command": "type",
+    "when": "editorTextFocus && !terminalFocus",
+    "args": {
+      "text": "#include <iostream>\n\nusing namespace std;\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n\n    return 0;\n}\n"
+    }
+  }
+]
