@@ -63,10 +63,6 @@ public class Herramienta {
         return prestado;
     }
 
-    public void setPrestado(int prestado) {
-        this.prestado = prestado;
-    }
-
     @Override
     public String toString() {
         return "Herramienta [nombre=" + nombre + ", cantidadTotal=" + cantidadTotal + ", prestado=" + prestado + "]";
